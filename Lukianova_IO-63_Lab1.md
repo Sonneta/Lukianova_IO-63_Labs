@@ -91,21 +91,31 @@ return 0; }
 
 Код програми 2 
 
+Код програми 2
+
 ```c
+#include <stdio.h>
 
-#include <stdio.h> 
+int main(void)
+{
+    double x = 0;
+    double y = 0;
 
-int main(void) { double x = 0; double y = 0; 
+    printf("Enter x: ");
+    scanf("%lf", &x);
 
-printf("Enter x: "); scanf("%lf", &x); 
+    if (x > 0 && x <= 5) {
+        y = x * x * x - 5 * x * x;
+        printf("y(%g) = %.4f\n", x, y);
+    } else if ((x >= -32 && x < -20) || x > 10) {
+        y = x * x - 3;
+        printf("y(%g) = %.4f\n", x, y);
+    } else {
+        printf("The function is undefined for x = %g\n", x);
+    }
 
-if (x > 0 && x <= 5) { y = x * x * x - 5 * x * x; printf("y(%g) = %.4f\n", x, y); } else if ((x >= -32 && x < -20) || x > 10) { y = x * x - 3; printf("y(%g) = %.4f\n", x, y); } else { printf("The function is undefined for x = %g\n", x); } 
-
-return 0; 
-
+    return 0;
 }
-
-```
 
 Тест2.1 
 
