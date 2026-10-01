@@ -37,49 +37,6 @@
 Блок-схема алгоритму 2 (12 варіант) 
 <img width="1150" height="850" alt="2" src="https://github.com/user-attachments/assets/2ea0cf52-e7c1-4451-8ee7-7472c9125d0a" />
 
-5. Код програми 1
-
-```c
-#include <stdio.h>
-
-int main(void)
-{
-    double x = 0;
-    double y = 0;
-
-    printf("Enter x: ");
-    scanf("%lf", &x);
-
-    if (x <= 0) {
-        if (x < -20) {
-            if (x < -32) {
-                printf("The function is undefined for x = %g\n", x);
-            } else {
-                y = x * x - 3;
-                printf("y(%g) = %.4f\n", x, y);
-            }
-        } else {
-            printf("The function is undefined for x = %g\n", x);
-        }
-    } else {
-        if (x <= 5) {
-            y = x * x * x - 5 * x * x;
-            printf("y(%g) = %.4f\n", x, y);
-        } else {
-            if (x <= 10) {
-                printf("The function is undefined for x = %g\n", x);
-            } else {
-                y = x * x - 3;
-                printf("y(%g) = %.4f\n", x, y);
-            }
-        }
-    }
-
-    return 0;
-}
-
-```
-
 Тест 1.1 
 
 <img width="671" height="162" alt="test1_1" src="https://github.com/user-attachments/assets/656f6c0f-6d0c-4b88-b537-645b4ca2b722" />
@@ -104,35 +61,6 @@ int main(void)
 
 <img width="633" height="157" alt="test1_6" src="https://github.com/user-attachments/assets/97a93975-1b62-4764-957d-cc96a22c5ec3" />
 
-Код програми 2 
-
-Код програми 2
-
-```c
-#include <stdio.h>
-
-int main(void)
-{
-    double x = 0;
-    double y = 0;
-
-    printf("Enter x: ");
-    scanf("%lf", &x);
-
-    if (x > 0 && x <= 5) {
-        y = x * x * x - 5 * x * x;
-        printf("y(%g) = %.4f\n", x, y);
-    } else if ((x >= -32 && x < -20) || x > 10) {
-        y = x * x - 3;
-        printf("y(%g) = %.4f\n", x, y);
-    } else {
-        printf("The function is undefined for x = %g\n", x);
-    }
-
-    return 0;
-}
-
-```
 
 Тест2.1 
 
