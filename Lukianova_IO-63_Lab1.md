@@ -26,25 +26,14 @@
 
 3.Завдання за варіантом: 
 
-
-
 4. Алгоритм 1: 
 
 Блок-схема алгоритму 1 (12 варіант) 
-
-
-
-<!-- Start of picture text -->
-ca<br>Sbdrddid<br><!-- End of picture text -->
+<img width="1190" height="900" alt="1" src="https://github.com/user-attachments/assets/a9762794-efb7-4546-8855-ef64e5f58f03" />
 
 Алгоритм 2: 
 
 Блок-схема алгоритму 2 (12 варіант) 
-
-
-
-<!-- Start of picture text -->
-a Bapianr<br>C Begin (2 6ynesnmn12, onepauintn)nporpana2<br>1 °<br>Cm ><br>We<br><!-- End of picture text -->
 
 5. Код програми 1 
 
@@ -72,8 +61,7 @@ return 0; } Тест 1.1
 
 
 
-<!-- Start of picture text -->
-"C:\Users\Lukan\CLionProjects\Task 1_Lab1\cmake-build-debug\Task_1_Lab1.exe<br>Enter x<br>The function is undefined for x 4<br>Process finished with exit code 0<br><!-- End of picture text -->
+
 
 Тест1.2 
 
