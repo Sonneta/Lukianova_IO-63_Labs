@@ -117,6 +117,8 @@ int main(void)
     return 0;
 }
 
+```
+
 Тест2.1 
 
 <img width="770" height="138" alt="test2_1" src="https://github.com/user-attachments/assets/43ed922e-1eb6-4973-b919-305871387a03" />
