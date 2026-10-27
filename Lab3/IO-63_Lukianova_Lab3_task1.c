@@ -41,8 +41,8 @@ int peek(const Stack *s, char *out)
     return 1;
 }
 
-void stack_clear(Stack *s)           { s->top = -1; }   /* O(1) */
-void stack_destroy(Stack *s)         { s->top = -1; }   /* динамічної пам'яті немає */
+void stack_clear(Stack *s)           { s->top = -1; }
+void stack_destroy(Stack *s)         { s->top = -1; }
 
 #define HOME_PAGE "home"
 
